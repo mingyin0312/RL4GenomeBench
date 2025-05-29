@@ -1,9 +1,9 @@
 <div align="center">
 
-# Genome-Bench: Multi-Step Reasoning Evaluation and Training for Biomedical LLMs
+# Toward Scientific Reasoning in LLMs: Training from Expert Discussions via Reinforcement Learning
 
 <div>
-🧬 A New Benchmark and RL Pipeline for Functional Genomics Reasoning 📊
+🧬 A New Benchmark Genome-Bench and RL Fine-Tuning for Scientific Reasoning 📊
 </div>
 </div>
 
@@ -11,7 +11,7 @@
 <br>
 
 <div align="center">
-	
+
 [![arXiv](https://img.shields.io/badge/arXiv-2301.00001-red?style=for-the-badge&logo=arxiv&logoColor=auto)](https://arxiv.org/abs/your_arxiv_id)
 [![GitHub](https://img.shields.io/badge/GitHub-Code-000000?style=for-the-badge&logo=github&logoColor=auto)](https://github.com/mingyin0312/RL4GenomeBench)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Dataset-ffcc00?style=for-the-badge&logo=huggingface&logoColor=auto)](https://huggingface.co/datasets/Mingyin0312/Genome-Bench)
