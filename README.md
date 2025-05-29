@@ -21,13 +21,13 @@
 
 ## Overview
 
-![](figure/overview.pdf)
+![](figure/overview.png)
 
 We introduce **Genome-Bench**, a novel benchmark for evaluating and improving scientific reasoning in large language models. Genome-Bench consists of over 3,000 multiple-choice and QA items derived from CRISPR-related scientific discussions and forum threads, covering key topics in genome engineering, experimental design, and error analysis.
 
 Our RL training pipeline (based on Group Relative Policy Optimization) improves model performance across expert-labeled evaluation sets. For example, our fine-tuned Qwen2.5-7B model exceeds GPT-4o in accuracy and consistency on multi-hop reasoning tasks.
 
-![](figure/example_result.pdf)
+![](figure/example_result.png)
 
 ---
 
