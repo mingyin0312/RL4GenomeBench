@@ -36,8 +36,8 @@ Our RL training pipeline (based on Group Relative Policy Optimization) improves 
 ### Installation
 
 ```bash
-git clone https://github.com/your_org/Genome-Bench.git
-cd Genome-Bench
+git clone https://github.com/mingyin0312/RL4GenomeBench.git
+cd RL4GenomeBench
 pip install -r requirements.txt
 ```
 
@@ -59,19 +59,19 @@ python 4_convert_natural_question.py
 ### Reinforcement Fine-tuning (GRPO)
 
 ```bash
-python training/rl_training.py --config config/rl_config.yaml
+python training/rl_training.py 
 ```
 
 ### Supervised Fine-Tuning (SFT)
 
 ```bash
-python training/sft_training.py --config config/sft_config.yaml
+python training/sft_training.py 
 ```
 
 ### Multi-Agent RL Routing
 
 ```bash
-python training/rl_router_training.py --config config/router_config.yaml
+python training/rl_router_training.py 
 ```
 
 ## Evaluation 
@@ -79,16 +79,16 @@ python training/rl_router_training.py --config config/router_config.yaml
 To evaluate on the Genome-Bench test data: 
 
 ```bash
-python evaluation/genome-bench_eval.py --model_path <MODEL_PATH> --output_dir <OUTPUT_DIR>
+python evaluation/genome-bench_eval.py 
 ```
 
 ## Citation
 
 ```bibtex
-@article{yin2025genomebench,
-  title={Genome-Bench: Evaluating and Enhancing Scientific Reasoning of LLMs in Functional Genomics},
-  author={Yin, Ming and et al.},
-  journal={arXiv preprint arXiv:your_arxiv_id},
+@article{yin2025<<TBD>>,
+  title={Toward Scientific Reasoning in LLMs: Training from Expert Discussions via Reinforcement Learning},
+  author={Yin, Ming and Qu, Yuanhao and Ling, Yang and Cong, Le and Wang Mengdi},
+  journal={arXiv preprint arXiv:<<TBD>>},
   year={2025}
 }
 ```
