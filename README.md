@@ -82,5 +82,14 @@ To evaluate on the Genome-Bench test data:
 python evaluation/genome-bench_eval.py --model_path <MODEL_PATH> --output_dir <OUTPUT_DIR>
 ```
 
+## Citation
 
+```bibtex
+@article{yin2025genomebench,
+  title={Genome-Bench: Evaluating and Enhancing Scientific Reasoning of LLMs in Functional Genomics},
+  author={Yin, Ming and et al.},
+  journal={arXiv preprint arXiv:your_arxiv_id},
+  year={2025}
+}
+```
 
