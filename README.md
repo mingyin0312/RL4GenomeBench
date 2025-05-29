@@ -11,10 +11,10 @@
 <br>
 
 <div align="center">
-
-[![arXiv](https://img.shields.io/badge/arXiv-2301.00001-red?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/your_arxiv_id)
-[![GitHub](https://img.shields.io/badge/GitHub-Code-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your_org/Genome-Bench)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-Dataset-ffcc00?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/your_org/Genome-Bench)
+	
+[![arXiv](https://img.shields.io/badge/arXiv-2301.00001-red?style=for-the-badge&logo=arxiv&logoColor=auto)](https://arxiv.org/abs/your_arxiv_id)
+[![GitHub](https://img.shields.io/badge/GitHub-Code-000000?style=for-the-badge&logo=github&logoColor=auto)](https://github.com/your_org/Genome-Bench)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Dataset-ffcc00?style=for-the-badge&logo=huggingface&logoColor=auto)](https://huggingface.co/datasets/your_org/Genome-Bench)
 
 </div>
 </div>
