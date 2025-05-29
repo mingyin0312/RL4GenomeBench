@@ -95,5 +95,5 @@ python evaluation/genome-bench_eval.py
 
 ## Acknowledgement
 
-This project leverages the 🧠 [Transformers Reinforcement Learning (TRL)](https://github.com/huggingface/trl) library developed by Hugging Face, which provides powerful tools for fine-tuning large language models with reinforcement learning techniques such as PPO, DPO, and GRPO.
+This project leverages the 🤗 [Transformers Reinforcement Learning (TRL)](https://github.com/huggingface/trl) library, which provides powerful tools for fine-tuning large language models with reinforcement learning techniques such as GRPO.
 
