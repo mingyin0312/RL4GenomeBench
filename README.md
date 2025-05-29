@@ -39,3 +39,44 @@ Our RL training pipeline (based on Group Relative Policy Optimization) improves 
 git clone https://github.com/your_org/Genome-Bench.git
 cd Genome-Bench
 pip install -r requirements.txt
+```
+
+
+### Dataset Preparation
+
+We provide tools to parse .mbox email archives and convert them into standardized MCQ and QA formats.
+
+```bash
+git clone https://github.com/your_org/Genome-Bench.git
+cd Genome-Bench
+pip install -r requirements.txt
+```
+
+## Training 
+
+### Reinforcement Fine-tuning (GRPO)
+
+```bash
+python training/rl_training.py --config config/rl_config.yaml
+```
+
+### Supervised Fine-Tuning (SFT)
+
+```bash
+python training/sft_training.py --config config/sft_config.yaml
+```
+
+### Multi-Agent RL Routing
+
+```bash
+python training/rl_router_training.py --config config/router_config.yaml
+```
+
+## Evaluation 
+
+To evaluate on the Genome-Bench test data: 
+
+```bash
+python evaluation/genome-bench_eval.py --model_path <MODEL_PATH> --output_dir <OUTPUT_DIR>
+```
+
