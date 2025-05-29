@@ -21,13 +21,13 @@
 
 ## Overview
 
-![](figure/overview.png)
+![](figure/overview.pdf)
 
 We introduce **Genome-Bench**, a novel benchmark for evaluating and improving scientific reasoning in large language models. Genome-Bench consists of over 3,000 multiple-choice and QA items derived from CRISPR-related scientific discussions and forum threads, covering key topics in genome engineering, experimental design, and error analysis.
 
 Our RL training pipeline (based on Group Relative Policy Optimization) improves model performance across expert-labeled evaluation sets. For example, our fine-tuned Qwen2.5-7B model exceeds GPT-4o in accuracy and consistency on multi-hop reasoning tasks.
 
-![](figure/example_result.png)
+![](figure/example_result.pdf)
 
 ---
 
@@ -47,9 +47,11 @@ pip install -r requirements.txt
 We provide tools to parse .mbox email archives and convert them into standardized MCQ and QA formats.
 
 ```bash
-git clone https://github.com/your_org/Genome-Bench.git
-cd Genome-Bench
-pip install -r requirements.txt
+cd dataset_pipeline
+python 1_email_parse.py
+python 2_convert_MCQ_full.py
+python 3_dataset_prepare.py
+python 4_convert_natural_question.py
 ```
 
 ## Training 
@@ -79,4 +81,6 @@ To evaluate on the Genome-Bench test data:
 ```bash
 python evaluation/genome-bench_eval.py --model_path <MODEL_PATH> --output_dir <OUTPUT_DIR>
 ```
+
+
 
