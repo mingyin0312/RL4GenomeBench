@@ -12,9 +12,9 @@
 
 <div align="center">
 
-[[![Paper](https://img.shields.io/badge/Paper-arXiv-red?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/your_arxiv_id)
-[![Code](https://img.shields.io/badge/Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your_org/Genome-Bench)
-[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-orange?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/datasets/your_org/Genome-Bench)
+[![arXiv](https://img.shields.io/badge/arXiv-2301.00001-red?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/your_arxiv_id)
+[![GitHub](https://img.shields.io/badge/GitHub-Code-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your_org/Genome-Bench)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Dataset-ffcc00?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/your_org/Genome-Bench)
 
 </div>
 </div>
