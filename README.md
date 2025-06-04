@@ -12,7 +12,7 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-2301.00001-red?style=for-the-badge&logo=arxiv&logoColor=auto)](https://arxiv.org/abs/your_arxiv_id)
+[![arXiv](https://img.shields.io/badge/arXiv-2505.19501-red?style=for-the-badge&logo=arxiv&logoColor=auto)](https://arxiv.org/abs/2505.19501)
 [![GitHub](https://img.shields.io/badge/GitHub-Code-000000?style=for-the-badge&logo=github&logoColor=auto)](https://github.com/mingyin0312/RL4GenomeBench)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Dataset-ffcc00?style=for-the-badge&logo=huggingface&logoColor=auto)](https://huggingface.co/datasets/Mingyin0312/Genome-Bench)
 
@@ -85,10 +85,10 @@ python evaluation/genome-bench_eval.py
 ## Citation
 
 ```bibtex
-@article{yin2025<<TBD>>,
+@article{yin2025genome,
   title={Toward Scientific Reasoning in LLMs: Training from Expert Discussions via Reinforcement Learning},
   author={Yin, Ming and Qu, Yuanhao and Ling, Yang and Cong, Le and Wang Mengdi},
-  journal={arXiv preprint arXiv:<<TBD>>},
+  journal={arXiv preprint arXiv:2505.19501},
   year={2025}
 }
 ```
